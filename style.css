@@ -1,0 +1,274 @@
+
+
+body {
+background: linear-gradient(135deg, #667eea, #764ba2);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+/* Gaya tambahan yang ingin kamu tambahkan di sini */
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f5f5f5;
+}
+
+header {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #333;
+padding: 10px;
+z-index: 100;
+}
+
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 960px;
+margin: 0 auto;
+}
+
+.navbar-logo {
+font-size: 24px;
+font-weight: bold;
+color: #fff;
+text-decoration: none;
+}
+
+.navbar-menu {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.navbar-menu li {
+margin-right: 10px;
+}
+
+.navbar-menu li a {
+color: #fff;
+text-decoration: none;
+padding: 5px;
+border-radius: 3px;
+transition: background-color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+background-color: #fff;
+color: #333;
+}
+
+.navbar-toggle {
+display: none;
+flex-direction: column;
+cursor: pointer;
+}
+
+.navbar-toggle span {
+width: 30px;
+height: 4px;
+background-color: #fff;
+margin-bottom: 4px;
+transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+.navbar-menu {
+display: none;
+}
+
+.navbar-toggle {
+display: flex;
+}
+
+.navbar-toggle.active span:nth-child(1) {
+transform: translateY(8px) rotate(45deg);
+}
+
+.navbar-toggle.active span:nth-child(2) {
+opacity: 0;
+}
+
+.navbar-toggle.active span:nth-child(3) {
+transform: translateY(-8px) rotate(-45deg);
+}
+}
+header {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #333;
+padding: 10px;
+z-index: 100;
+}
+
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 960px;
+margin: 0 auto;
+}
+
+.navbar-logo {
+font-size: 24px;
+font-weight: bold;
+color: #fff;
+text-decoration: none;
+}
+
+.navbar-menu {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.navbar-menu li {
+margin-left: 20px;
+}
+
+.navbar-menu li:first-child {
+margin-left: 0;
+}
+
+.navbar-menu li a {
+color: #fff;
+text-decoration: none;
+padding: 10px;
+border-radius: 50px;
+transition: background-color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+background-color: #fff;
+color: #333;
+}
+
+@media (max-width: 768px) {
+.navbar-menu {
+    display: none;
+}
+
+.navbar-menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+}
+
+.navbar-menu.active li {
+    margin: 10px 0;
+}
+
+.navbar-menu.active li a {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.navbar-toggle span {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggle.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.navbar-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-toggle.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+}
+
+
+.profile-card {
+background: linear-gradient(135deg, #FFFFFF, #F8F8F8);
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 30px;
+text-align: center;
+transition: transform 0.3s ease;
+width: 500px;
+margin: 0 auto;
+}      
+
+.profile-card:hover {
+transform: scale(1.05);
+}
+
+.profile-card img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 20px;
+border: 4px solid #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card h2 {
+margin-bottom: 10px;
+font-size: 24px;
+color: #333;
+}
+
+.social-media-links {
+list-style: none;
+padding: 0;
+margin-top: 20px;
+}
+
+.social-media-links li {
+margin-bottom: 10px;
+}
+
+.social-media-links a {
+display: inline-block;
+color: #333;
+text-decoration: none;
+margin-right: 10px;
+padding: 10px;
+border-radius: 50%;
+transition: background-color 0.3s ease;
+}
+
+.social-media-links a i {
+vertical-align: middle;
+}
+
+.social-media-links a:hover {
+background-color: #1890ff;
+color: #fff;
+}
+
+h1 {
+font-size: 36px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+margin-bottom: 30px;
+}
